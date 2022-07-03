@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("https://www.freecodecamp.org/news/content/images/size/w1000/2021/06/5f9c9b00740569d1a4ca291b.jpg");
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Bowlby One SC';
+}
+
+h1 {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: rgb(33, 31, 31);
+}
+
+input {
+  width: 40%;
+  margin-left: 25%;
+  margin-right: 5px;
+  padding: 10px;
+  border: 2px solid rgb(193, 122, 122);
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  border: 2px solid rgb(193, 122, 122);
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.card {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-right: 25%;
+  margin-top: 10px;
+  opacity: 50%;
+  border: 2px solid rgb(193, 122, 122);
+  border-radius: 5px;
+  height: 400px;
+  transition: 0.3s;
+  opacity: 50%;
+  background-color: #fff;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
